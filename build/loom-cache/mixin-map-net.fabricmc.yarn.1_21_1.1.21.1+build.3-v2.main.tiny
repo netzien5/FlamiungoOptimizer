@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	com/flamiungo/mixin/MinecraftClientMixin	I	itemUseCooldown	field_1752

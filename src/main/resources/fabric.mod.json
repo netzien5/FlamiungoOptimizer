@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "flamiungooptimizer",
+    "version": "${version}",
+    "name": "FlamiungoOptimizer",
+    "description": "High performance Crystal Optimizer for Minecraft 1.21.1 - 1.21.10 (Ultimate Edition)",
+    "authors": [
+        "Flamiungo"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/fabricmc/fabric-example-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/flamiungooptimizer/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.flamiungo.FlamiungoOptimizer"
+        ],
+        "client": [
+            "com.flamiungo.FlamiungoClient"
+        ]
+    },
+    "mixins": [
+        "flamiungooptimizer.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": ">=1.21.1 <=1.21.10",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
