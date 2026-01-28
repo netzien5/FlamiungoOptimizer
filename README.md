@@ -1,6 +1,8 @@
 # 🦩 FlamiungoOptimizer (Ultimate Edition)
 
-<img src="https://github.com/user-attachments/assets/cff6013f-3f4b-4c56-a2a1-720f66b814a2" width="500" />
+<img src="https://github.com/user-attachments/assets/cff6013f-3f4b-4c56-a2a1-720f66b814a2" width="532" />
+
+
   <b>Minecraft 1.21.1 - 1.21.10 için En Gelişmiş Crystal PvP & Optimizasyon Modu</b>
 </p>
 
@@ -81,5 +83,6 @@
   <i>"Ultimate Efficiency & Aesthetic"</i>
 
 </p>
+
 
 
