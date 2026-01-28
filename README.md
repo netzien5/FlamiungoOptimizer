@@ -1,63 +1,84 @@
-# 🦩 FlamiungoOptimizer
+# 🦩 FlamiungoOptimizer (Ultimate Edition)
 
-[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://www.minecraft.net/)
-[![Fabric](https://img.shields.io/badge/Loader-Fabric-orange.svg)](https://fabricmc.net/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-**FlamiungoOptimizer**, Minecraft 1.21.1+ için geliştirilmiş, **Crystal PvP** odaklı ve yüksek performanslı bir optimizasyon modudur. Gelişmiş HUD özellikleri, PvP yardımcıları ve optimizasyon seçenekleri ile oyun deneyiminizi bir üst seviyeye taşır.
+<p align="center">
+  <img src="assets/flamiungooptimizer/icon.png" width="128" height="128" alt="FlamiungoOptimizer Logo">
+  <br>
+  <b>Minecraft 1.21.1 - 1.21.10 için En Gelişmiş Crystal PvP & Optimizasyon Modu</b>
+</p>
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Genel Bakış
+**FlamiungoOptimizer Ultimate**, Crystal PvP oyuncuları için özel olarak tasarlanmış, performansı maksimize eden ve oyun deneyimini kişiselleştiren profesyonel bir Fabric modudur. Sunucu gecikmelerini minimize eden algoritmaları ve tamamen özelleştirilebilir HUD arayüzü ile rakiplerinin önüne geç.
+
+---
+
+## 📜 Change Log (Son Güncellemeler)
+
+### v1.1.0 - Ultimate V2 Update
+- **✨ HUD Editör:** `Insert` tuşu ile açılan sürükle-bırak destekli modüler arayüz eklendi.
+- **🩸 TargetHUD Plus:** Rakibin zırh setleri, elindeki eşya ve can yüzdesi (%) göstergesi eklendi.
+- **🧿 Totem Counter:** XP barının üstüne taşındı ve altın sarısı estetik bir görünüme kavuştu.
+- **🛡️ Durability Fix:** Zırh dayanıklılık sayıları artık her zaman görünüyor ve cana göre renk değiştiriyor.
+- **👒 China Hat V2:** Çift katmanlı ve dönen 3D şapka efekti eklendi.
+- **⚔️ Reach Display:** Rakibe kaç bloktan vurduğunu gösteren şık modül eklendi.
+- **⌨️ Keystrokes:** WASD ve Space tuş vuruşlarını gösteren görsel modül eklendi.
+- **⚙️ Sürüm Desteği:** Minecraft 1.21.1 ile 1.21.10 arasındaki tüm sürümlerle uyumlu hale getirildi.
+- **🔧 Fixes:** Build hataları (remapJar) ve sürüm uyumluluk sorunları giderildi.
+
+---
+
+## ✨ Öne Çıkan Özellikler
 
 ### ⚔️ PvP & Combat
-- **⚡ Instant Crystal Removal:** Kristale vurduğunuz anda sunucu gecikmesini beklemeden siler.
-- **🎯 Zero Delay Placement:** Kristal koyma hızınızı maksimize eder.
-- **🛡️ Ghost Crystal Prevention:** Hatalı kristal görüntülerini engeller.
-- **💣 TNT Timer:** TNT'lerin patlamasına ne kadar kaldığını üzerinde saniye olarak gösterir.
-- **🩸 TargetHUD:** Baktığınız rakibin ismini, canını, mesafesini ve zırh durumunu şık bir panelde gösterir.
-- **📷 NoHurtCam:** Hasar aldığınızda ekranın sallanmasını engeller.
-- **� Zoom:** `C` tuşu ile uzaktaki rakipleri net bir şekilde görebilirsiniz.
+- **⚡ Crystal Optimizer:** Kristaller patladığı saliseler içinde silinir. "Ghost crystal" sorununu önler.
+- **🎯 Zero-Delay Placement:** Kristal koyma hızındaki cooldown kaldırıldı.
+- **⚔️ Reach Display:** Vuruş mesafeni anlık hesaplar.
+- **🛡️ Armor HUD:** Kendi zırh dayanıklılığını ve rakibin setlerini anlık görürsün.
 
-### 📊 HUD & Görsel
-- **🎒 Inventory HUD+:** Zırh durumu, elinizdeki eşyalar ve aktif iksir efektlerini ekranda gösterir.
-- **🧿 Totem Counter:** Envanterinizdeki toplam totem sayısını anlık olarak takip edebilirsiniz.
-- **ℹ️ Info HUD:** FPS ve XYZ koordinat bilgilerinizi sol üst köşede gösterir.
-- **💡 Fullbright:** Karanlık yerlerde bile her yeri gündüz gibi aydınlık görürsünüz.
-- **� Low Fire:** Yanarken çıkan ateş efektini küçültür, görüşünüzü kapatmaz.
-- **🌦️ No Weather:** Yağmur, kar ve fırtına efektlerini kapatarak FPS artışı sağlar.
-- **✨ NoRender:** Patlama ve gereksiz parçacıkları gizleyerek performansı artırır.
+### 🎨 Görsel & HUD (Feather Stilinde)
+- **🖱️ Drag & Drop Editor:** `Insert` tuşu ile her şeyi dilediğin yere taşı.
+- **🩸 Premium TargetHUD:** Rakibin skini, can barı, yüzdesi ve durumu.
+- **👒 China Hat:** Oyuncuların kafasında dönen estetik 3D efekt.
+- **⌨️ Keystrokes:** Tuş basışlarını ekranda takip et.
+- **🎒 Inventory HUD+:** Eşya ve iksir sürelerini takip etmeni sağlar.
 
 ---
 
-## 💻 Komutlar
+## 🎮 Kontroller & Kullanım
 
-Mod özelliklerini oyun içinden anlık olarak açıp kapatabilirsiniz.
+| Tuş | İşlev |
+| :--- | :--- |
+| **Insert** | **HUD Düzenleme Editörü** |
+| **C** | **Zoom** (Yakınlaştırma) |
 
-**Kullanım:** `/flamiungooptimizer <özellik> <true/false>`
+### 🛠️ Komutlar
+`/flamiungooptimizer <özellik> <true/false>`
 
-| Özellik Kodu | Açıklama | Örnek Komut |
-| :--- | :--- | :--- |
-| `targetHud` | Rakip bilgi panelini açar/kapatır. | `/flamiungooptimizer targetHud true` |
-| `fullbright` | Gece görüşünü açar/kapatır. | `/flamiungooptimizer fullbright true` |
-| `tntTimer` | TNT süresini gösterir. | `/flamiungooptimizer tntTimer true` |
-| `lowFire` | Düşük ateş efektini ayarlar. | `/flamiungooptimizer lowFire true` |
-| `noWeather` | Hava olaylarını gizler. | `/flamiungooptimizer noWeather true` |
-| `inventoryHud` | Envanter HUD'ını açar/kapatır. | `/flamiungooptimizer inventoryHud false` |
-
-*(Diğer kodlar: `showInfoHud`, `noHurtCam`, `noExplosions`, `clearDespawn`)*
+**Örnekler:**
+- `/flamiungooptimizer chinaHat true`
+- `/flamiungooptimizer keystrokes true`
+- `/flamiungooptimizer reachDisplay true`
 
 ---
 
 ## 📦 Kurulum
 
-1. En güncel `.jar` dosyasını indirin.
-2. `%appdata%/.minecraft/mods` klasörüne gidin.
-3. Dosyayı buraya sürükleyin.
-4. Minecraft'ı **Fabric** ile başlatın.
+1. **Fabric Loader** ve **Fabric API** yüklü olduğundan emin ol.
+2. `flamiungooptimizer-ultimate.jar` dosyasını indir.
+3. `%appdata%/.minecraft/mods` klasörüne kopyala ve oyunu başlat!
 
 ---
 
+## 🛠️ Build Alma (Geliştiriciler)
+
+```bash
+# Temiz bir build almak için:
+.\gradlew clean build --no-daemon
+```
+
+---
 <p align="center">
-  Discord: <b>nedeninisorma_</b>
+  <b>Geliştirici:</b> Flamiungo <br>
+  <i>"Ultimate Efficiency & Aesthetic"</i>
 </p>
