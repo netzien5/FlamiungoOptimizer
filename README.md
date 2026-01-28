@@ -4,15 +4,15 @@
 [![Fabric](https://img.shields.io/badge/Loader-Fabric-orange.svg)](https://fabricmc.net/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**FlamiungoOptimizer**, Minecraft 1.21.1+ için geliştirilmiş, yüksek performanslı ve düşük gecikmeli bir **Crystal Optimizer** modudur. Kristal savaşlarında (Crystal PvP) teknik avantaj sağlamak ve sunucu gecikmelerini (ping) minimize etmek amacıyla tasarlanmıştır.
+**FlamiungoOptimizer**, Minecraft 1.21.1+ için geliştirilmiş, yüksek performanslı ve düşük gecikmeli bir **Crystal Optimizer** modudur. **Crystal PvP** savaşlarında teknik avantaj sağlamak ve sunucu gecikmelerini (ping/latency) minimize etmek amacıyla tasarlanmıştır.
 
 ---
 
 ## 🚀 Özellikler
 
-- **⚡ Instant Crystal Removal**: Kristale vurduğunuz anda, sunucudan "yok edildi" paketi gelmesini beklemeden istemci tarafında anında yok edilir.
-- **🎯 Zero Delay Placement**: Kristal yerleştirme arasındaki gecikmeleri optimize ederek daha akıcı bir deneyim sunar.
-- **🛡️ Ghost Crystal Prevention**: Sunucu ile senkronize çalışan Mixin yapıları sayesinde görsel hataları (hayalet kristaller) engeller.
+- **⚡ Instant Crystal Removal**: Kristale vurduğunuz anda, sunucudan "destroy" paketi gelmesini beklemeden istemci tarafında (client-side) anında yok edilir.
+- **🎯 Zero Delay Placement**: Kristal yerleştirme (placement) arasındaki gecikmeleri optimize ederek daha akıcı bir deneyim sunar.
+- **🛡️ Ghost Crystal Prevention**: Sunucu ile senkronize çalışan Mixin yapıları sayesinde görsel hataları (**Ghost Crystals**) engeller.
 - **📉 Ultra Lightweight**: Sadece 7KB boyutunda, saf performans odaklı kod yapısı.
 - **🔌 Fabric API Uyumu**: En güncel Fabric Loader ve API sürümleriyle tam uyumlu.
 
@@ -30,24 +30,7 @@
 3. İndirdiğiniz dosyayı bu klasöre kopyalayın.
 4. Minecraft'ı Fabric profiliyle başlatın.
 
-## 🛠️ Geliştiriciler İçin (Build Alma)
-
-Projeyi kendi bilgisayarınızda derlemek isterseniz:
-
-```bash
-git clone https://github.com/kullanici-adiniz/FlamuingoOptimizer.git
-cd FlamuingoOptimizer
-./gradlew build
-```
-
-Derlenen dosya `build/libs/` klasöründe oluşacaktır.
-
 ## 📄 Lisans
 
 Bu proje **MIT** lisansı ile korunmaktadır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
 
----
-
-<p align="center">
-  Geliştiren: <b>Flamiungo</b>
-</p>
