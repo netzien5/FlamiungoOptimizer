@@ -1,7 +1,8 @@
 # 🦩 FlamiungoOptimizer (Ultimate Edition)
 
 <p align="center">
-  <img src="assets/flamiungooptimizer/icon.png" width="128" height="128" alt="FlamiungoOptimizer Logo">
+  <img src="assets/flamiungooptimizer/ic<img width="1024" height="1024" alt="ChatGPT_Image_29_Oca_2026_01_11_46" src="https://github.com/user-attachments/assets/5f52b86d-85b9-4738-b92e-fca242258175" />
+on.png" width="128" height="128" alt="FlamiungoOptimizer Logo">
   <br>
   <b>Minecraft 1.21.1 - 1.21.10 için En Gelişmiş Crystal PvP & Optimizasyon Modu</b>
 </p>
@@ -81,4 +82,5 @@
 <p align="center">
   <b>Geliştirici:</b> Flamiungo <br>
   <i>"Ultimate Efficiency & Aesthetic"</i>
+
 </p>
