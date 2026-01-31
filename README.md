@@ -1,44 +1,44 @@
-# 🦩 FlamiungoOptimizer (Ultimate Edition)
+
+
+# Flamiungo Optimizer 🦩
 
 <img src="https://github.com/user-attachments/assets/cff6013f-3f4b-4c56-a2a1-720f66b814a2" width="532" />
 
-**Flamiungo Optimizer**, Minecraft 1.21.1+ (Fabric) için geliştirilmiş, hem performansı katlayan hem de modern PvP özellikleri sunan hepsi-bir-arada bir optimizasyon modudur.
+A high-performance Minecraft optimization mod for 1.20.4+ (Fabric) featuring a premium **Miku-themed** interface and advanced PvP utilities.
 
-## � Öne Çıkan Özellikler
+## ✨ Latest Features (v2.0.0)
 
-### ⚡ Performans (FPS Booster+)
-Modumuz, popüler optimizasyon modlarının (Sodium, Lithium, FerriteCore) en kritik özelliklerini bünyesinde barındırır:
-- **Hızlı Matematik:** Lithium benzeri Sin/Cos lookup tabloları ile CPU yükünü azaltır.
-- **Entity Culling:** Görüş alanınızda olmayan oyuncu ve yaratıkları renderlamayı durdurur.
-- **BlockEntity Culling:** Görünmeyen sandık ve tabela gibi blokları renderlamayarak FPS'yi artırır.
-- **Sıfır Gecikme:** Blok koyma ve kırma arasındaki 5-tick'lik gecikmeyi tamamen ortadan kaldırır.
+### 🎨 Visual Excellence
+- **Premium Target ESP**: A dual-layer parlayan (glow) ring with a smooth up-and-down "sine-wave" animation. 
+- **Stare-Targeting**: TargetHUD and ESP activate instantly just by looking at someone within 4 blocks.
+- **Glassmorphism UI**: Modern, semi-transparent HUD elements with smooth gradients and pixel-perfect borders.
+- **Miku Aesthetics**: Unified Cyan/Teal color language used across all modules.
 
-### ⚔️ Gelişmiş PvP Modülleri
-- **Crystal Optimizer:** Kristalleri vurduğunuz anda client-side olarak siler, sunucu gecikmesini hissetmezsiniz.
-- **Shield Status:** Kalkanınızın durumunu (Hazır/Kırık) ve dolma süresini anlık olarak gösterir.
-- **Custom Crosshair:** Boyutu ve boşluğu ayarlanabilir, rakibe vurabileceğiniz mesafede kırmızıya dönen akıllı nişangah.
-- **AppleSkin:** Açlık barında doygunluk (saturation) miktarını gösteren altın katman.
-- **Better Combat:** Modern ve akıcı kılıç savurma animasyonları.
+### ⚙️ Intelligence & HUD
+- **Persistent Layouts**: Move any HUD module (Keystrokes, Armor, Ping, etc.) in the Editor and it stays where you left it—even after a restart.
+- **Network Insights**: Real-time ping graph with adaptive colors and AVG latency tracking.
+- **Small Assets**: Smaller Totem and Shield rendering to maximize your field of view during combat.
+- **Shield Sentinel**: Integrated cooldown tracking directly on your item stacks.
 
-### 🎨 Modern HUD & Tasarım
-- **Glassmorphism UI:** Şeffaf, şık ve modern TargetHUD, InfoHUD ve Menü tasarımı.
-- **HUD Editor (INSERT):** Tüm modülleri sürükle-bırak yöntemiyle yerleştirin ve yan panelden özelliklerini yönetin.
-- **Kalaylı Ayarlar:** Yaptığınız tüm değişiklikler otomatik olarak kaydedilir.
+### 🚀 Optimization Core
+- **Advanced Culling**: Drastically reduces CPU/GPU load by ignoring non-visible entities and tiles.
+- **Memory Efficiency**: Custom mathematical logic to reduce overhead and improve FPS stability.
+- **Better Combat Support**: Enhanced animations and hit feedback.
 
-## 🛠 Kullanım
+## ⌨️ Controls
+- **`INSERT`**: Open the HUD Editor. Drag modules to rearrange. Positions save automatically!
+- **`C`**: High-speed Zoom.
+- **`Command`**: Use `/flamiungooptimizer` for deep configuration.
 
-- **Mod Ayarları (HUD Editor):** `INSERT` tuşuna basın.
-- **Hızlı Yakınlaştırma (Zoom):** `C` tuşuna basın.
-- **Komutlar:** `/flamiungooptimizer <özellik> <true/false>`
+## 💬 Useful Commands
+- `/flamiungooptimizer addfriend <name>`: Add people to your whitelist.
+- `/flamiungooptimizer randomcoordinat <true/false>`: Enable streamer protection.
+- `/flamiungooptimizer <feature> <true/false>`: Toggle global features (Fullbright, LowFire, etc.).
 
-## 📦 Kurulum
-
-1. En güncel **Fabric Loader**'ı kurun.
-2. **Fabric API**'yi `mods` klasörüne atın.
-3. `flamiungooptimizer.jar` dosyasını `mods` klasörüne kopyalayın.
-4. Oyunu başlatın ve farkı hissedin!
+## 🛠️ Installation
+1. Install **Fabric Loader** (1.20.4+).
+2. Drop `FlamiungoOptimizer.jar` into your `mods` folder.
+3. Enjoy the cleanest PvP experience.
 
 ---
-
-*Geliştirici: **Flamiungo Team***  
-*Versiyon: **1.2.0 (Ultimate Refresh)***
+*Created with 🦩 by Flamiungo Team.*
