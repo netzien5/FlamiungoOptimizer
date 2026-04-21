@@ -41,4 +41,4 @@ A high-performance Minecraft optimization mod for 1.20.4+ (Fabric) featuring a p
 3. Enjoy the cleanest PvP experience.
 
 ---
-*Created with 🦩 by Flamiungo Team.*
+*Created with 🦩 by nedeninisorma_*
